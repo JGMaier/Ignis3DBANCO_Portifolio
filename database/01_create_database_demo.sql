@@ -3,13 +3,13 @@
 -- para facilitar consultas e organização das tabelas de autenticação.
 
 -- Criação do banco de dados principal
-CREATE DATABASE "Ignis3D-BANCO";
+CREATE DATABASE "Banco-Name";
 
 -- Conectar ao banco
-\c "Ignis3D-BANCO";
+\c "Banco-Name";
 
 -- Criar schema padrão
 CREATE SCHEMA autenticacao;
 
 -- Define o schema 'autenticacao' como o principal para buscas automáticas
-ALTER DATABASE "Ignis3D-BANCO" SET search_path TO autenticacao, public;
+ALTER DATABASE "Banco-Name" SET search_path TO autenticacao, public;
